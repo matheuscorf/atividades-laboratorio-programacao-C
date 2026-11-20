@@ -9,7 +9,7 @@ int main(void) {
         scanf("%d", &vetor[i]);
     }
 
-    printf("\nElementos do vetor (acessados pelo ponteiro):\n");
+    printf("\nElementos do vetor:\n");
     for (int i = 0; i < 5; i++) {
         printf("%d\n", *(ponteiro + i));
     }
