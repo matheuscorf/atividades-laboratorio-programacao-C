@@ -2,7 +2,7 @@
 
 int main(void) {
     int vetor[5];
-    int *ponteiro = vetor;   // o nome do vetor ja e o endereco do primeiro elemento
+    int *ponteiro = vetor;
 
     for (int i = 0; i < 5; i++) {
         printf("Digite o numero %d: ", i + 1);

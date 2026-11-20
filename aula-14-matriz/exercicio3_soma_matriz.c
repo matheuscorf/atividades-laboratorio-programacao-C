@@ -1,6 +1,3 @@
-// Aula 14 - Exercicio 3
-// Criar uma matriz 3x3, somar todos os seus elementos e apresentar o resultado.
-
 #include <stdio.h>
 
 int main(void) {

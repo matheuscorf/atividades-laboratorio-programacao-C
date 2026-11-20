@@ -1,5 +1,3 @@
-// Aula 18 - Questao 1: calculadora simples com funcoes
-
 #include <stdio.h>
 
 void exibirMenu(void) {
@@ -36,38 +34,34 @@ int main(void) {
         printf("Escolha uma opcao: ");
         scanf("%d", &opcao);
 
-        if (opcao == 0) {
+        if (opcao >= 1 && opcao <= 4) {
+            printf("\nPrimeiro numero: ");
+            scanf("%f", &n1);
+            printf("Segundo numero: ");
+            scanf("%f", &n2);
+
+            switch (opcao) {
+                case 1:
+                    printf("\nResultado: %.2f\n\n", somar(n1, n2));
+                    break;
+                case 2:
+                    printf("\nResultado: %.2f\n\n", subtrair(n1, n2));
+                    break;
+                case 3:
+                    printf("\nResultado: %.2f\n\n", multiplicar(n1, n2));
+                    break;
+                case 4:
+                    if (n2 == 0) {
+                        printf("\nErro: nao e possivel dividir por zero!\n\n");
+                    } else {
+                        printf("\nResultado: %.2f\n\n", dividir(n1, n2));
+                    }
+                    break;
+            }
+        } else if (opcao == 0) {
             printf("\nEncerrando a calculadora.\n");
-            break;
-        }
-
-        if (opcao < 1 || opcao > 4) {
+        } else {
             printf("\nOpcao invalida!\n\n");
-            continue;
-        }
-
-        printf("\nPrimeiro numero: ");
-        scanf("%f", &n1);
-        printf("Segundo numero: ");
-        scanf("%f", &n2);
-
-        switch (opcao) {
-            case 1:
-                printf("\nResultado: %.2f\n\n", somar(n1, n2));
-                break;
-            case 2:
-                printf("\nResultado: %.2f\n\n", subtrair(n1, n2));
-                break;
-            case 3:
-                printf("\nResultado: %.2f\n\n", multiplicar(n1, n2));
-                break;
-            case 4:
-                if (n2 == 0) {
-                    printf("\nErro: nao e possivel dividir por zero!\n\n");
-                } else {
-                    printf("\nResultado: %.2f\n\n", dividir(n1, n2));
-                }
-                break;
         }
     } while (opcao != 0);
 

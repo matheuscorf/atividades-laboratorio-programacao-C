@@ -1,6 +1,3 @@
-// Aula 17 - Questao 1: cadastro de usuarios e perfis de acesso
-// Usa strlen(), strcmp(), strcpy() e strcat().
-
 #include <stdio.h>
 #include <string.h>
 
@@ -19,7 +16,6 @@ int main(void) {
     printf("Digite seu perfil (ADMIN ou COMUM): ");
     scanf("%19s", perfil);
 
-    // strcmp retorna 0 quando as strings sao iguais
     if (strcmp(perfil, "ADMIN") == 0) {
         strcpy(perfilDescricao, "Administrador");
     } else if (strcmp(perfil, "COMUM") == 0) {

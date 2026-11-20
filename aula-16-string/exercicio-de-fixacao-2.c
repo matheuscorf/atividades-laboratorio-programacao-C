@@ -1,6 +1,4 @@
 #include <stdio.h>
-// EXERCÍCIOS DE FIXAÇÃO 
-// 2 - Ler o nome de uma pessoa e exibi-lo)
 int main(void){
     char nome[30];
 

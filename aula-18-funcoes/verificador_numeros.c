@@ -1,8 +1,5 @@
-// Aula 18 - Questao 3: verificar se um numero e par ou impar
-
 #include <stdio.h>
 
-// Retorna 1 se o numero for par e 0 se for impar
 int verificarPar(int numero) {
     if (numero % 2 == 0) {
         return 1;

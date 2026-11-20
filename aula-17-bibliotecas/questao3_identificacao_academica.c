@@ -1,6 +1,3 @@
-// Aula 17 - Questao 3: identificacao de cursos e mensagem personalizada
-// Usa strlen(), strcmp(), strcpy() e strcat().
-
 #include <stdio.h>
 #include <string.h>
 

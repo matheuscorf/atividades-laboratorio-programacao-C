@@ -1,6 +1,3 @@
-// EXERCÍCIOS DE FIXAÇÃO 
-// 4 - Ler uma palavra e exibir cada caractere em uma linha)
-
 #include <stdio.h>
 int main(void){
 

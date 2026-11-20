@@ -1,6 +1,3 @@
-// EXERCÍCIOS DE FIXAÇÃO 
-// 5- Ler uma palavra e contar quantas vogais ela possui, considerando letras minúsculas)
-
 #include <stdio.h>
 int main(void){
 

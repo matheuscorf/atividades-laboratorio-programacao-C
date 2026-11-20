@@ -1,6 +1,3 @@
-// Aula 18 - Questao 5: relatorio com separadores visuais
-// Funcao sem parametros e sem retorno.
-
 #include <stdio.h>
 
 void exibirLinha(void) {

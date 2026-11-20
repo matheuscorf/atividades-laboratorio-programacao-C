@@ -1,5 +1,3 @@
-// Aula 18 - Questao 2: comparar o preco de dois produtos
-
 #include <stdio.h>
 
 float maiorPreco(float a, float b) {

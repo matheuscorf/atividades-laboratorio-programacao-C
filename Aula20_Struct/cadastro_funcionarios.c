@@ -1,5 +1,3 @@
-// Aula 20 - Questao 17: cadastro de dois funcionarios e comparacao de salarios
-
 #include <stdio.h>
 
 typedef struct {

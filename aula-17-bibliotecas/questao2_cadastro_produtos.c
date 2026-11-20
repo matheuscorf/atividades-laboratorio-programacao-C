@@ -1,6 +1,3 @@
-// Aula 17 - Questao 2: cadastro de produtos de uma loja de informatica
-// Usa strlen(), strcmp(), strcpy() e strcat().
-
 #include <stdio.h>
 #include <string.h>
 
@@ -14,7 +11,7 @@ int main(void) {
     printf("===== CADASTRO DE PRODUTOS =====\n\n");
 
     printf("Nome do produto: ");
-    scanf(" %49[^\n]", produto);
+    scanf("%49s", produto);
 
     printf("Categoria (HARDWARE ou PERIFERICO): ");
     scanf("%19s", categoria);

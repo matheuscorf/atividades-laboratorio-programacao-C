@@ -1,6 +1,3 @@
-// Aula 14 - Exercicio 1
-// Criar uma matriz 2x2 com valores definidos no codigo e exibi-la em formato de tabela.
-
 #include <stdio.h>
 
 int main(void) {
